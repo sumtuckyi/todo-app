@@ -1,0 +1,101 @@
+.hidden {
+    display: none;
+}
+html {
+    background-color: whitesmoke;
+    font: helvetica; 
+}
+h2 {
+    text-align: center;
+    font-size: 100px;
+}
+.todo_form {
+    background-color: white;
+    background-blend-mode: hue;
+    border-radius: 5px;
+    height: 30%;
+    width: 50%;
+    opacity: 0.5;
+    margin: auto;
+}
+input::placeholder{
+    color: black;
+    font-size: large;
+}
+#d-day-form {
+    width: 50%;
+    height: 30%;
+    padding: 5px;
+    font-size: 12px;
+    background-color: transparent; 
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#weather {
+    text-align: right;
+    margin: 5px;
+}
+#login-form {
+    text-align: center;
+}
+#login-form input.login {
+    width: 10%;
+    padding: 10px;
+    margin: auto;
+    border : hidden;
+    border-radius: 2px;
+    text-align: center;
+}
+#login-form input.name {
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border: hidden;
+    border-bottom-style: 2px;
+    margin: 2px;
+    background-color: transparent;
+}
+#login-form input.name:focus {
+    outline: none;
+    border-bottom: 2px solid #032343;
+}
+#todo-form input {
+    width: 250px;
+    padding: 10px;
+    border: hidden;
+    border-bottom-style: 2px;
+    margin: 2px;
+    background-color: transparent;
+    
+}
+#todo-form input:focus {
+    outline: none;
+    border-bottom: 2px solid #032343;
+}
+ul {
+    list-style-type: disc;
+    height: fit-content;
+    width: fit-content;
+    background-color: none;
+}
+li {
+   margin: auto;
+}
+#todo-list {
+    
+}
+#quote {
+    text-align: center;
+    font: helvetica ;
+    margin-top: 100px;
+}
+button {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
