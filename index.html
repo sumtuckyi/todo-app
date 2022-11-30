@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <form class="hidden" id="d-day-form">
+        <h3>D-DAY COUNTER</h3>
+        <input type="date" id="endDate" required>
+        <input type="submit" id="count" value="D-day count!">
+    </form>
+    <h3 class="hidden" id="d-day"></h2>
+    <h2 id="clock">00:00:00</h2>
+    <form class="hidden" id="login-form">
+        <input 
+        required
+        maxlength="15"
+        type="text" 
+        placeholder="what is your name?"
+        class="name">
+        <input type="submit" value="Log In" class="login">
+    </form>
+    <h1 class="hidden" id="greeting" ></h1>
+    <div class="todo_form">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    
+    <script src="greeting.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="D-day.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>  
