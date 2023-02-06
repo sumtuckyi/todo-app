@@ -85,10 +85,14 @@ ul {
     width: fit-content;
     background-color: none;
     text-align: start;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #todo-form li {
    margin: auto;
+}
+
+.todo_list {
 }
 
 #quote {
@@ -102,4 +106,8 @@ button {
 }
 h1 {
     text-align: center;
+}
+
+h3 {
+    text-align: start;
 }
