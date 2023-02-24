@@ -4,6 +4,7 @@ const todoList = document.getElementById("todo-list");
 
 const TODOS_KEY = "todos";
 
+
 let toDos = [];
 
 function saveToDos(){
@@ -28,6 +29,7 @@ function paintToDo(newTodo){
     li.appendChild(span);
     li.appendChild(button);
     todoList.appendChild(li);
+    todoList.classList.remove(HIDDEN_CLASSNAME);
 }
 
 function handleToDoSubmit(event){
